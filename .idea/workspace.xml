@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="039f13fc-2035-410c-ae73-7ed5033c37f3" name="Changes" comment="Ejercicio rendimiento">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="039f13fc-2035-410c-ae73-7ed5033c37f3" name="Changes" comment="Rendimiento">
+      <change beforePath="$PROJECT_DIR$/src/es/uah/matcomp/ed/complejidad/Concatenacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/uah/matcomp/ed/complejidad/Concatenacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/es/uah/matcomp/ed/complejidad/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/es/uah/matcomp/ed/complejidad/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,6 +191,7 @@
       <workItem from="1707673736255" duration="47000" />
       <workItem from="1707726785617" duration="442000" />
       <workItem from="1707811728855" duration="74000" />
+      <workItem from="1707811841130" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="Ejercicio rendimiento">
       <option name="closed" value="true" />
@@ -199,7 +201,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707727140478</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ejercicio rendimiento">
+      <option name="closed" value="true" />
+      <created>1707811960134</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707811960134</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Rendimiento">
+      <option name="closed" value="true" />
+      <created>1707812145497</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707812145497</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +225,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ejercicio rendimiento" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio rendimiento" />
+    <MESSAGE value="Rendimiento" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rendimiento" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/EDSesion2COmplejidad$JugandoTest_tocarvariables.ic" NAME="JugandoTest.tocarvariables Coverage Results" MODIFIED="1707291194390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
