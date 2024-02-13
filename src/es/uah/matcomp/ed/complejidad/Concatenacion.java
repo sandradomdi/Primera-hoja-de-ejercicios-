@@ -71,5 +71,6 @@ public class Concatenacion {
             }
             tiempoTranscurrido = getSegundos() - tiempoInicio;
         }
+
     }
 }
