@@ -19,19 +19,19 @@ import java.time.ZoneId;
  */
 public class Concatenacion {
     String excel = "";
-    public Concatenacion()
-    {
+
+    public Concatenacion() {
         //Workbook datos = new XSSFWorkbook();
         //Sheet hoja = datos.createSheet("Hoja 1");
         File dir = new File(".");
         String ubi = dir.getAbsolutePath();
-        String ubiSalida = ubi.substring(0,ubi.length()-1)+"datos.xlsx";
+        String ubiSalida = ubi.substring(0, ubi.length() - 1) + "datos.xlsx";
         FileOutputStream opS;
     }
+
     public long getSegundos() {
         return LocalDateTime.now().atZone(ZoneId.systemDefault()).toEpochSecond();
     }
-
 
 
     public void testConcatenar(long pTiempo, String pCadena) {
@@ -41,18 +41,18 @@ public class Concatenacion {
         long tiempoA = getSegundos();
         long tiempoInicio = getSegundos();
         long tiempoTranscurrido = getSegundos() - tiempoInicio;
-        while(tiempoTranscurrido<pTiempo)
-        {
+        while (tiempoTranscurrido < pTiempo) {
             res = res + pCadena;
-            cont ++;
-            if (getSegundos()-tiempoA >= 1){
+            cont++;
+            if (getSegundos() - tiempoA >= 1) {
                 tiempoA = getSegundos();
                 tiempoTranscurrido = getSegundos() - tiempoInicio;
-                System.out.println(String.valueOf(cont)+","+String.valueOf(tiempoTranscurrido));
+                System.out.println(String.valueOf(cont) + "," + String.valueOf(tiempoTranscurrido));
             }
             tiempoTranscurrido = getSegundos() - tiempoInicio;
         }
     }
+
     public void testLista(long pTiempo, String pCadena) {
         System.out.println("Ejecutando metodo de lista");
         int cont = 0;
@@ -60,14 +60,13 @@ public class Concatenacion {
         long tiempoA = getSegundos();
         long tiempoInicio = getSegundos();
         long tiempoTranscurrido = getSegundos() - tiempoInicio;
-        while(tiempoTranscurrido<pTiempo)
-        {
+        while (tiempoTranscurrido < pTiempo) {
             res.append(pCadena);
-            cont ++;
-            if (getSegundos()-tiempoA >= 1){
+            cont++;
+            if (getSegundos() - tiempoA >= 1) {
                 tiempoA = getSegundos();
                 tiempoTranscurrido = getSegundos() - tiempoInicio;
-                System.out.println(String.valueOf(cont)+","+String.valueOf(tiempoTranscurrido));
+                System.out.println(String.valueOf(cont) + "," + String.valueOf(tiempoTranscurrido));
             }
             tiempoTranscurrido = getSegundos() - tiempoInicio;
         }
